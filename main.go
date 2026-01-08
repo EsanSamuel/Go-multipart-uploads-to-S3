@@ -89,7 +89,7 @@ func main() {
 
 	url, err := config.UploadFinish(file.Name(), uploadEtag, *uploadId)
 	fmt.Println(url)
-	fmt.Println("Total file size: ", totalSize/(1024*1024), "mb")
+	fmt.Println("Total file size: ", totalSize/(1024*1024), "MB")
 	fmt.Println("Upload took:", time.Since(startTime).Minutes(), "minutes")
 
 }
