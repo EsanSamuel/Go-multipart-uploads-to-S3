@@ -1,0 +1,1 @@
+To design and display big, stylish fonts (known as ASCII art or "FIGlet" style text) in Go CLI apps, you should use a dedicated library like go-figure or figlet4go. These libraries handle the parsing of font files and rendering of text into large character banners. 
